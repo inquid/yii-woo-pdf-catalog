@@ -1,0 +1,25 @@
+{
+    "name": "inquid/yii-woocommerce-catalog",
+    "description": "Create a PDF catalog of your store to send to your clients through whatsapp",
+    "type": "yii2-extension",
+    "keywords": ["yii2","yii3","extension","woocommerce","ecommerce","e-commerce","shop","catalog","whatsapp"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "inquid",
+            "email": "contact@inquid.co"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "automattic/woocommerce": "^2.0",
+        "inquid/yii2-fpdf": "dev-master",
+        "phpoffice/phpspreadsheet": "dev-master",
+        "inquid/yii-reports": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "inquid\\yiiwoocatalog\\": "src"
+        }
+    }
+}
